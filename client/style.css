@@ -1,0 +1,51 @@
+.message-container {
+  padding: 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.message-box {
+  width: 50%;
+  height: 50vh;
+  border: 1px solid black;
+  margin-bottom: 2px;
+}
+.message-input-container,
+.room-input-container {
+  width: 50%;
+  margin-bottom: 2px;
+}
+.message-input {
+  width: 75%;
+  padding: 16px;
+}
+.room-input {
+  width: 45%;
+  padding: 16px;
+}
+.message-btn,
+.join-btn,
+.create-btn {
+  width: 100px;
+  background-color: cornflowerblue;
+  color: aliceblue;
+  transition: 0.2s;
+  border: none;
+  border-radius: 5px;
+  padding: 16px;
+  outline: none;
+}
+.message-btn:hover,
+.join-btn:hover,
+.create-btn:hover {
+  cursor: pointer;
+  background-color: darkblue;
+  color: aliceblue;
+}
+.message-btn:active,
+.join-btn:active,
+.create-btn:active {
+  background-color: blue;
+  color: aliceblue;
+}

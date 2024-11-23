@@ -1,0 +1,19 @@
+{
+  "name": "codespaces-blank",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "client": "nodemon server/client.js",
+    "server": "nodemon server/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.1",
+    "nodemon": "^3.1.7",
+    "short-unique-id": "^5.2.0",
+    "ws": "^8.18.0"
+  }
+}
